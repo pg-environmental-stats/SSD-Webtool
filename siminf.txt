@@ -1,0 +1,18 @@
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: lm(formula = log10.y ~ groups, data = lmData)
+
+Linear Hypotheses:
+                         Estimate Std. Error t value Pr(>|t|)
+macrophyte - fish == 0    0.18792    0.36367   0.517    0.784
+invert - fish == 0        0.28534    0.25452   1.121    0.784
+algae - fish == 0         0.72228    0.27491   2.627    0.114
+invert - macrophyte == 0  0.09742    0.34851   0.280    0.784
+algae - macrophyte == 0   0.53437    0.36367   1.469    0.650
+algae - invert == 0       0.43694    0.25452   1.717    0.533
+(Adjusted p values reported -- hochberg method)
+

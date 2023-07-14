@@ -1,0 +1,6 @@
+Analysis of Variance Table
+
+Response: log10.y
+          Df Sum Sq Mean Sq F value Pr(>F)
+groups     3 1.3640 0.45466  2.4064 0.1079
+Residuals 15 2.8341 0.18894               
