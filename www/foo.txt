@@ -1,0 +1,20 @@
+
+	 Simultaneous Tests for General Linear Hypotheses
+
+Multiple Comparisons of Means: Tukey Contrasts
+
+
+Fit: lm(formula = log10.y ~ group, data = junk)
+
+Linear Hypotheses:
+           Estimate Std. Error t value Pr(>|t|)    
+B - C == 0   0.7503     0.5437   1.380 0.186579    
+A - C == 0   2.0382     0.5437   3.748 0.007014 ** 
+D - C == 0   2.8752     0.5437   5.288 0.000441 ***
+A - B == 0   1.2878     0.5437   2.368 0.092361 .  
+D - B == 0   2.1249     0.5437   3.908 0.006263 ** 
+D - A == 0   0.8371     0.5437   1.539 0.186579    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+(Adjusted p values reported -- hochberg method)
+
